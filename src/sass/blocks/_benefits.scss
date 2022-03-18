@@ -1,0 +1,26 @@
+.benefits{
+    min-height: 472px;
+    padding: 70px 0 62px 0;
+    &_wrapper{
+        padding-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+        .text{
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .sub_text{
+            margin-top: 20px;
+            font-weight: 300;
+            font-size: var(--size-text);
+        }
+            span{
+                color: var(--main-color);
+            }
+        .benefits_item{
+            width: 236px;
+        }
+    }

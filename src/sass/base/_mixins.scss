@@ -1,0 +1,2 @@
+@mixin for-tablet { @media (max-width: 991px) { @content; } }
+@mixin for-modile { @media (max-width: 769px) { @content; } }
