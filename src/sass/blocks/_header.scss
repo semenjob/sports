@@ -1,0 +1,46 @@
+.promo_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include for-modile{
+        .logo{
+            margin: 0 auto;
+        }
+        .contact{
+            display: none;
+        }
+        .official{
+            display: none;
+        }
+    }
+    .official{
+        width: 215px;
+        text-align: center;
+        font-size: 12px;
+        color: var(--color-white);
+        span{
+            font-size: 18px;
+        }
+}
+    .contact{
+        a{
+            color: var(--color-white);
+        }
+        .head_btn{
+            display: block;
+            color: var(--color-white);
+            background: var(--main-color);
+            border-radius: 5px;
+            width: 153px;
+            height: 32px;
+            font-size: 12px;
+        }
+        .phone{
+            display: block;
+            text-decoration: none;
+            text-align: end;
+            display: block;
+        }
+    }
+}
