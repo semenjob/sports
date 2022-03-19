@@ -2,10 +2,26 @@
     height: 742px;
     padding: 108px 0;
     position: relative;
+    @include for-tablet{
+        .slick-dots{
+            display: flex;
+            justify-content: space-around;
+                button{
+                    background: rgb(134, 69, 69);
+                    border: none;
+                }
+        }
+    }
     &_inner{
         margin: 0 auto;
         width: 750px;
-    }
+        @include for-modile{
+            width: 370px;
+            .slider_img{
+                width: 100%;
+            }
+        }
+    }   
         .slick-prev, .slick-next{
             background: none;
             border: none;
@@ -13,9 +29,12 @@
             bottom: 50%;
             transform: translateX(-50%);
             left: -70px;
+            width: 30px;
+            height: 50px;   
         }
         .slick-next{
-            right: -360px;
+            right: -70px;
             left: auto;
-            }
+        }
+
 }

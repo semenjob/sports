@@ -2,7 +2,11 @@
     background: url(../img/promo/bg.png) center center/cover no-repeat;
     min-height: 650px;
     padding: 21px 0 90px 0;
-
+    @include for-modile{
+        button{
+            margin-top: 90px;
+        }
+    }
     &_wrapper {
         margin-top: 90px;
         display: flex;
@@ -11,21 +15,9 @@
         @include for-tablet{
             align-items: center;
         }
-        
     }
-        .head_btn{
-            font-size: 19px;
-        }
-    &_header{
-        @include for-tablet;
-            margin: 0 20px;
-    }
-    &_head{
-        font-size: 42px;
-        color: var(--color-white);
-    }
-    &_subhead{
-        font-size: 24px;
+    .subtitle{
+        font:var(--title-font-subtitle);
         color: var(--color-white);
         margin-top: 17px;
     }
@@ -34,17 +26,24 @@
         margin-top: 64px;
         text-align: center;
         align-items: center;
+        :last-child{
+            margin-right: 0px;
+        }
+        @include for-modile{
+            display: none;
+        }
     }
     &_icons{
-        margin-left: 40px;
+        margin-right: 40px;
     }
-    &_descr{
-        margin-top: 20px;
-        color: var(--color-white);
-        width: 136px;
-        height: 29px;
-        margin-bottom: 68px;
-    }
+        &_descr{
+            margin-top: 20px;
+            color: var(--color-white);
+            width: 136px;
+            height: 29px;
+            margin-bottom: 68px;
+            font:var(--font-text-all);
+        }
     a{
         margin-top: 10px;
         text-decoration: none;
