@@ -14,18 +14,18 @@
         
     }
         .head_btn{
-            font-size: 19px;
+            font-size: var(--size-btn-h);
         }
     &_header{
         @include for-tablet;
             margin: 0 20px;
     }
-    &_head{
-        font-size: 42px;
+    .title_promo{
+        font-size: var(--font-size-p-t);
         color: var(--color-white);
     }
-    &_subhead{
-        font-size: 24px;
+    &_subtitle{
+        font-size: var(--font-size-p-st);
         color: var(--color-white);
         margin-top: 17px;
     }

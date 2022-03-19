@@ -5,7 +5,7 @@
     text-align: center;
     text-transform: uppercase;
     &_left{
-        font-size: 36px;
+        font-size: var(--font-size-c-t);
         color: var(--color-white);
         text-align: left;
     }

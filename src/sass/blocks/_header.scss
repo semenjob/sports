@@ -17,10 +17,10 @@
     .official{
         width: 215px;
         text-align: center;
-        font-size: 12px;
+        font-size: var(--font-size-h);
         color: var(--color-white);
         span{
-            font-size: 18px;
+            font-size: var(--font-size-span-h);
         }
 }
     .contact{
