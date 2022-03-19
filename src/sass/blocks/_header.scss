@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    @include for-tablet{
+        margin: 0 20px;
+    }
     @include for-modile{
         .logo{
             margin: 0 auto;
@@ -11,21 +13,27 @@
             display: none;
         }
         .official{
-            display: none;
-        }
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 550px;
+        }      
     }
     .official{
         width: 215px;
         text-align: center;
-        font-size: var(--font-size-h);
+        font:var(--font-logo);
         color: var(--color-white);
         span{
-            font-size: var(--font-size-span-h);
+            display: block;
+            margin-top: 7px;
+            font-size: var(--font-size-benefits-subtitle-tabs);
         }
 }
     .contact{
         a{
-            color: var(--color-white);
+            color: var(--color-white);      
         }
         .head_btn{
             display: block;
@@ -34,7 +42,7 @@
             border-radius: 5px;
             width: 153px;
             height: 32px;
-            font-size: var(--font-size-btn);
+            font:var(--font-logo);
         }
         .phone{
             display: block;

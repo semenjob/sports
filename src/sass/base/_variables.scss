@@ -1,17 +1,45 @@
 :root{
 --main-color: #C70101;
---color-white: #fff;
---size-text: 14px;
---size-btn: 16px;
---size-btn-h: 19px;
---size-titleBlocks: 30px;
---font-size-btn: 12px;
---font-size-b-d: 18px;
---font-size-c-sb: 20px;
---font-size-span-h: 18px;
---font-size-h: 12px;
---font-size-p-t: 42px;
---font-size-p-st: 24px;
---font-size-c-t: 36px;
+--color-white: #FFFFFF;
+
+--font-size-title: 42px;
+--font-size-section-title: 36px;
+--font-size-all-titles-block:30px;
+--font-size-subtitle:24px;
+--font-size-price:20px;
+--font-size-benefits-subtitle-tabs:18px;
+--font-size-buttons:16px;
+--font-size-all-text:14px;
+--font-size-logo-head:12px;
+
+--font-weight-bolt:700;
+--font-weight-medium:500;
+--font-weight-light:300;
+
+--font-family-museo:'Museo Sans Cyrl';
+
+--font-price-consult: var(--font-weight-medium) var(--font-size-price) var(--font-family-museo);
+--title-font: var(--font-weight-bolt) var(--font-size-title) var(--font-family-museo);
+--title-font-subtitle: var(--font-weight-medium) var(--font-size-subtitle) var(--font-family-museo);
+--title-section-font: var(--font-weight-bolt) var(--font-size-price) var(--font-family-museo);
+--font-size-subtext-tabs: var(--font-weight-bolt) var(--font-size-benefits-subtitle-tabs) var(--font-family-museo);
+--font-text: var(--font-weight-light) var(--font-size-all-text) var(--font-family-museo);
+--font-logo: var(--font-weight-medium) var(--font-size-logo-head) var(--font-family-museo);
+--font-text-all: var(--font-weight-medium) var(--font-size-all-text) var(--font-family-museo);
+--font-size-button: var(--font-weight-medium) var(--font-size-buttons) var(--font-family-museo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
     

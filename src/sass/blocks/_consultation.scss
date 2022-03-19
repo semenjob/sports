@@ -2,9 +2,23 @@
     min-height: 680px;
     background: url(../img/contacts/bg2.png) center center/cover no-repeat;
     padding: 102px 0 108px 0;
+    @include for-tablet{
+            form{
+                margin: 15px 20px;
+                input, button{
+                    margin: 10px auto;
+                }
+            }
+            .title{
+                text-align: center;
+                font-size: var(--font-size-all-titles-block);
+            }
+            &_subtitle{
+                text-align: center;
+            }
+    }
     &_subtitle{
-        font-weight: 500;
-        font-size: var(--font-size-c-sb);
+        font:var(--font-price-consult);
         color: var(--color-white);
         margin-top: 8px;
     }
