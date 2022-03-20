@@ -2,7 +2,7 @@
     background: url(../img/promo/bg.png) center center/cover no-repeat;
     min-height: 650px;
     padding: 21px 0 90px 0;
-    @include for-modile{
+    @include for-mobile{
         button{
             margin-top: 90px;
         }
@@ -20,6 +20,9 @@
         font:var(--title-font-subtitle);
         color: var(--color-white);
         margin-top: 17px;
+        @include for-mobile{
+            font:var(--font-size-price)
+        }
     }
     &_icon{
         display: flex;
@@ -29,7 +32,7 @@
         :last-child{
             margin-right: 0px;
         }
-        @include for-modile{
+        @include for-mobile{
             display: none;
         }
     }

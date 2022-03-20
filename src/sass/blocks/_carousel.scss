@@ -2,20 +2,24 @@
     height: 742px;
     padding: 108px 0;
     position: relative;
+    @include for-mobile{
+        height: 550px;
+    }
     @include for-tablet{
+        padding-top: 70px;
         .slick-dots{
+            margin-top: 20px;
             display: flex;
             justify-content: space-around;
                 button{
-                    background: rgb(134, 69, 69);
-                    border: none;
+                    display: none;
                 }
         }
     }
     &_inner{
         margin: 0 auto;
         width: 750px;
-        @include for-modile{
+        @include for-mobile{
             width: 370px;
             .slider_img{
                 width: 100%;
