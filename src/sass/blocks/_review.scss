@@ -1,0 +1,37 @@
+.review{
+    min-height: 940px;
+    .section_title{
+        font-size:var(--font-size-all-titles-block);
+    }
+    &_img{
+        height: 169px;
+        width: 169px;
+        border-radius: 100%;
+        margin-right: 60px;
+    }
+    &_block{
+        margin-top: 60px;
+        display: flex;
+        flex: start;
+    }
+    &_descr{
+        width: 660px;
+    }
+
+    &_name{
+        font:var(--font-size-subtext-tabs);
+    }
+    &_title{
+        color:var(--calor-text);
+        font:var(--font-text-all);
+    }
+    &_text{
+        font:var(--font-size-button);
+        margin-top: 10px;
+        line-height: 24px;
+        P{
+            margin-top: 16px;
+        }
+    }
+
+}
