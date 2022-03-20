@@ -8,6 +8,9 @@
         font-size:var(--font-size-section-title);
         text-align: left;
     }
+    @include for-mobile{
+        font:var(--font-size-all-titles-block);
+    }
 }
         
 

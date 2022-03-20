@@ -1,6 +1,13 @@
 :root{
 --main-color: #C70101;
 --color-white: #FFFFFF;
+--calor-text: #6B6B6B;
+--color-border:#605b5b;
+--color-border-content:#e8e8e8;
+--color-tab:#D0D0D0;
+--color-old-price:#555555;
+--color-black:#0D0D0D;
+
 
 --font-size-title: 42px;
 --font-size-section-title: 36px;
@@ -29,7 +36,7 @@
 --font-size-button: var(--font-weight-medium) var(--font-size-buttons) var(--font-family-museo);
 --font-size-cat: var(--font-weight-medium) var(--font-size-all-titles-block) var(--font-family-museo);
 --font-size-tabs: var(--font-weight-medium) var(--font-size-benefits-subtitle-tabs) var(--font-family-museo);
-
+--font-size-content-title: var(--font-weight-bolt) var(--font-size-buttons) var(--font-family-museo);
 
 
 
