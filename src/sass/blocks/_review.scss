@@ -8,18 +8,32 @@
         width: 169px;
         border-radius: 100%;
         margin-right: 60px;
+        @include for-mobile{
+            margin-right: 0px;
+        }
     }
     &_block{
         margin-top: 60px;
         display: flex;
         flex: start;
+        @include for-mobile{
+            flex-direction: column;
+            align-items: center;
+        }
     }
     &_descr{
         width: 660px;
+        @include for-mobile{
+            width: 350px;
+        }
     }
 
     &_name{
         font:var(--font-size-subtext-tabs);
+        @include for-mobile{
+            margin-top: 10px;
+            text-align: center;
+        }
     }
     &_title{
         color:var(--calor-text);
