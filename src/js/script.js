@@ -30,5 +30,24 @@ function toggleSlide(item) {
 
 toggleSlide('.catalog-item_link');
 toggleSlide('.catalog-item_back');
+
+
+//modal
+
+    $('[data-modal=consultation]').on('click', function() {
+      $('.overlay, #consaltion').fadeIn('slow');
+    });
+    $('.modal_close').on('click', function() {
+      $('.overlay, #consaltion, #order, #thanks').fadeOut('slow');
+    });
+    $('.button_mini').on('click', function() {
+      $('.overlay, #order').fadeIn('slow'); 
+    });
+    $('.button_mini').each(function(i) {
+      $(this).on('click', function() {
+        $('#order .modal_descr').text($('.catalog-item_subtitle').eq(i).text());
+        $('.overlay, #order').fadeIn('slow'); 
+      })
+    });
 });
 	

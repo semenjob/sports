@@ -4,10 +4,13 @@
     flex-direction: column;
     input{
         margin-bottom: 12px;
-        width: 303px;
+        width: 300px;
         height: 54px;
     }
     button{
         margin-top: 16px;
+    }
+    &_mt25px{
+        margin-top: 25px;
     }
 }
