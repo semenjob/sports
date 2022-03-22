@@ -1,3 +1,4 @@
+@import 'base/animation';
 @import 'base/variables';
 @import 'base/mixins';
 * {
@@ -23,4 +24,5 @@
 @import 'blocks/review';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/scroll';
 @import 'base/_media';

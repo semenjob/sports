@@ -9,8 +9,23 @@
     }
     button{
         margin-top: 16px;
+        @include for-tablet{
+            width: 260px;
+        }
     }
     &_mt25px{
         margin-top: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .error{
+        border:solid 1px var(--main-color);
+    }
+    label.error{
+        text-align: center;
+        display: block;
+        width: 300px;
+        border: none;
+        margin-bottom: 8px;
     }
 }
