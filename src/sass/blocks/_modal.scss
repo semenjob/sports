@@ -1,0 +1,66 @@
+.overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, .56);
+    top: 0px;
+    .modal{
+        border-radius: 5px;
+        width: 380px;
+        min-height: 450px;
+        background: var(--color-white);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 40px 20px 40px;
+        @include for-mobile{
+            min-width: 330px;
+        }
+        input{
+            width: 260px;
+        }
+        &_subtitle{
+            font:var(--font-size-subtext-tabs);
+            margin-top: 10px;
+            text-align: center;
+            @include for-mobile{
+                font:var(--font-size-buttons);
+            }
+        }
+        &_descr{
+            margin-top: 5px;
+            text-align: center;
+            font:var(--font-text-all);
+            @include for-mobile{
+                font:var(--font-size-logo-head);
+            }
+        }
+        &_close{
+            right: -20px;
+            top: -35px;
+            color: var(--main-color);
+            position: absolute;
+            font-size: var(--font-size-all-titles-block);
+            cursor: pointer;
+        }
+        &_mini{
+            min-height: 140px;
+        }
+        button{
+            width: 260px;
+        }
+        .error{
+            border:solid 1px var(--main-color);
+        }
+        label.error{
+            border: none;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+    }
+}
+#consaltion, #order, #thanks {
+    display: none;
+}

@@ -25,4 +25,18 @@
         .benefits_item{
             width: 236px;
         }
+    &_icon{
+        &_animate{
+            animation: 2.5s ease infinite heard_beat;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
+        &_zoomin{
+            animation: zoomin-icon 1s ease;
+        }
+        &_fade{
+            animation: fadeInUp 1s ease;
+        }
     }
+}
